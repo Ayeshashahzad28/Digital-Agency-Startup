@@ -1,0 +1,164 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5f7ff;
+  color: #111827;
+}
+
+/* page banner */
+
+.page-banner {
+  width: 100%;
+  padding: 120px 8% 80px;
+  background: #eef2ff;
+  text-align: center;
+}
+
+.page-banner h1 {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.page-banner p {
+  color: #666;
+  font-size: 18px;
+}
+
+/* Contact */
+
+.contact-section {
+  padding: 100px 8%;
+  background: #f8f9fc;
+}
+
+.contact-container {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* left side info*/
+
+.contact-info,
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #1f1f1f;
+}
+
+.contact-info p {
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.info-box {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  color: #444;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* form */
+
+.contact-form {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #4f46e5;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.contact-form button {
+  padding: 14px 28px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #3730a3;
+  transform: translateY(-2px);
+}
+
+/* map */
+
+.map-section {
+  width: 100%;
+  margin-top: 80px;
+  padding: 0 8%;
+}
+
+.map-section iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* google map */
+
+.map-section {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.map-section iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 20px;
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-info h2 {
+    font-size: 32px;
+  }
+
+  .contact-form {
+    padding: 25px;
+  }
+}

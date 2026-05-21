@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Tech Agency About_Us</title>
+  <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="about_us.css" />
+  <link rel="stylesheet" href="footer.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">Computribe</div>
+
+    <input type="checkbox" id="menu-toggle" />
+
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about_us.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <div class="about-container">
+      <!-- LEFT IMAGE -->
+      <div class="about-image">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt="About Company" />
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="about-content">
+        <span class="sub-title">About Our Company</span>
+
+        <h2>We’re Partner of Your Innovations</h2>
+
+        <p>
+          Computribe specializes in delivering top-notch IT services. Our
+          expertise has empowered numerous organizations, enhancing business
+          performance and boosting competitiveness. Choose Computribe for
+          tailored solutions that propel your business towards digital
+          success.
+        </p>
+
+        <!-- FEATURES -->
+        <div class="features">
+          <div class="feature-item">✔ Best quality support</div>
+          <div class="feature-item">✔ Serve the best</div>
+          <div class="feature-item">✔ Money back guarantee</div>
+          <div class="feature-item">✔ Trusted Professionals</div>
+        </div>
+
+        <a href="about.html" class="about-btn">LEARN MORE</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-container">
+    <!-- Item 1 -->
+    <div class="stat-item">
+      <h2 class="number">330+</h2>
+      <p class="label">Active Clients</p>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="stat-item">
+      <h2 class="number">980+</h2>
+      <p class="label">Projects Completed</p>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="stat-item">
+      <h2 class="number">20+</h2>
+      <p class="label">Glorious Years</p>
+    </div>
+
+    <!-- Item 4 -->
+    <div class="stat-item">
+      <h2 class="number">112+</h2>
+      <p class="label">Professional Team</p>
+    </div>
+  </section>
+
+  <!-- call to action -->
+
+  <section class="cta">
+    <h2>Ready to Grow Your Business?</h2>
+    <a href="contact.html">Get in Touch</a>
+  </section>
+
+  <!-- footer -->
+
+  <footer class="footer">
+    <div class="footer-content">
+      <!-- Company Info -->
+
+      <div class="footer-box">
+        <h2 class="footer-logo">Computribe</h2>
+
+        <p class="footer-description">
+          Delivering innovative digital solutions for startups, businesses,
+          and modern brands worldwide.
+        </p>
+
+        <div class="footer-contact">
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            +92 336 8869911
+          </p>
+
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            info@computribe.com
+          </p>
+
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Office No. 508, 5th Floor, Garden Heights, Garden Town, Lahore,
+            Pakistan.
+          </p>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+
+      <div class="footer-box">
+        <h3>Quick Links</h3>
+
+        <ul class="footer-links">
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-angle-right"></i>
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="services.html">
+              <i class="fa-solid fa-angle-right"></i>
+              Services
+            </a>
+          </li>
+
+          <li>
+            <a href="pricing.html">
+              <i class="fa-solid fa-angle-right"></i>
+              Pricing
+            </a>
+          </li>
+
+          <li>
+            <a href="about_us.html">
+              <i class="fa-solid fa-angle-right"></i>
+              About Us
+            </a>
+          </li>
+
+          <li>
+            <a href="contact.html">
+              <i class="fa-solid fa-angle-right"></i>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+
+      <div class="footer-box">
+        <h3>Newsletter</h3>
+
+        <p class="newsletter-text">
+          Subscribe to receive latest updates, services, and digital insights.
+        </p>
+
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required />
+
+          <button type="submit">Subscribe</button>
+        </form>
+
+        <!-- Social Icons -->
+
+        <div class="social-icons">
+          <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a href="#">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom -->
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Computribe. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
